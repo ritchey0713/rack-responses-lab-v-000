@@ -4,4 +4,6 @@ class Application
     resp = Rack::Response.new 
     time = time.now 
     
+    if time < 12 
+      
     
